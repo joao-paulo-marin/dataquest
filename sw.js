@@ -1,8 +1,8 @@
 /* DATAQUEST: service worker para uso offline.
    O app e as bibliotecas ficam em cache; os dados do Supabase sempre vão pela rede. */
-const VERSION = '20261111190352';
+const VERSION = '20261111193650';
 const CACHE = 'dataquest-' + VERSION;
-const SHELL = ['./', './index.html', './config.js', './manifest.webmanifest', './icons/icon-192.png', './icons/icon-512.png', './icons/maskable-512.png', './icons/apple-touch-icon.png', './icons/favicon-32.png'];
+const SHELL = ['./', './index.html', './config.js', './manifest.webmanifest', './icon-192.png', './icon-512.png', './maskable-512.png', './apple-touch-icon.png', './favicon-32.png'];
 const CDN = 'https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.108.1';
 
 self.addEventListener('install', (event) => {
