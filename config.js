@@ -14,6 +14,6 @@
    os dados apenas no navegador.
    ========================================================================== */
 window.DATAQUEST_CONFIG = {
-  supabaseUrl: '',
-  supabaseKey: '',
+  supabaseUrl: 'https://quccgatxespgigfxykyx.supabase.co',
+  supabaseKey: 'sb_publishable_DsDNIsrrEUSJCAHYVOTfog_QcvXMCXw',
 };
